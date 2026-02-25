@@ -1,0 +1,9 @@
+export const mockEvents = [
+    { id: 1, name: 'Concierto de Rock', date: '2024-12-15 22:00', location: 'Madrid', image: 'https://www.cartagena.es/gestion/images/0/285521.png', description: 'El mejor concierto de rock del año.', promoter: 'Rock Events' },
+    { id: 2, name: 'Festival de Jazz', date: '2024-11-20 20:00', location: 'Barcelona', image: 'https://files.theproject.es/archivos/57_jazz_logo_prov.jpg', description: 'Un festival con los mejores artistas de jazz.', promoter: 'Jazz World' },
+    { id: 3, name: 'Obra de Teatro', date: '2024-11-25 19:00', location: 'Valencia', image: 'https://guiauniversitaria.mx/wp-content/uploads/2020/03/En-el-D%C3%ADa-Mundial-del-Teatro_-las-10-obras-de-teatro-m%C3%A1s-exitosas-de-la-historia.jpg', description: 'Un clásico del teatro en una nueva producción.', promoter: 'Teatro Clásico' },
+    { id: 4, name: 'Exposición de Arte', date: '2024-12-01 10:00', location: 'Sevilla', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ22q0rOrTYuB6awjD-gHNJO490SJdAQeyCGw&s', description: 'Una exposición de arte moderno.', promoter: 'Arte Moderno' },
+    { id: 5, name: 'Maratón Solidaria', date: '2024-11-30 09:00', location: 'Bilbao', image: 'https://static01.nyt.com/images/2025/09/15/espanol/00trav-marathon-01-zwhb-ES-copy1/00trav-marathon-01-zwhb-articleLarge.jpg?quality=75&auto=webp&disable=upscale', description: 'Corre por una buena causa.', promoter: 'Solidarity Runs' },
+    { id: 6, name: 'Feria Gastronómica', date: '2024-12-05 12:00', location: 'Zaragoza', image: 'https://elmiradordebenidorm.es/wp-content/uploads/2022/09/alicante-gastronomica-fira-alacant-ok.jpg', description: 'Los mejores sabores de la región.', promoter: 'Gastronomía Local' }
+  ];
+   

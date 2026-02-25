@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&family=Inter:wght@400;600&display=swap');
+
+:root {
+  /* Colores principales (Esquema Rojo y Negro) */
+  --primary-color: #E60023;
+  --primary-dark: #A40019;
+  --primary-light: #FF3352;
+  --secondary-color: #E60023; /* Manteniendo la consistencia */
+  --secondary-dark: #A40019;
+  --accent-color: #E60023;
+  --accent-dark: #A40019;
+
+  /* Colores de fondo */
+  --background-color: #121212;
+  --background-light: #1e1e1e;
+  --background-dark: #000000;
+
+  /* Colores de texto */
+  --text-color: #ffffff;
+  --text-light: #a0a0a0;
+  --text-white: #ffffff;
+
+  /* Gradientes */
+  --gradient-primary: linear-gradient(135deg, #E60023 0%, #A40019 100%);
+  --gradient-secondary: linear-gradient(135deg, #FF3352 0%, #E60023 100%);
+  --gradient-accent: linear-gradient(135deg, #FF3352 0%, #A40019 100%);
+
+  /* Tipografía */
+  --font-family-headings: 'Bebas Neue', sans-serif;
+  --font-family: 'Montserrat', 'Inter', sans-serif;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 2.25rem; /* Aumentado para titulares */
+  --font-size-4xl: 3rem;    /* Aumentado para titulares */
+  --font-size-5xl: 4.5rem;  /* Aumentado para titulares */
+
+  /* Espaciado */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-2xl: 4rem;
+
+  /* Bordes */
+  --border-radius-sm: 0.25rem;
+  --border-radius-md: 0.5rem;
+  --border-radius-lg: 0.75rem;
+  --border-radius-xl: 1rem;
+  --border-radius-full: 9999px;
+
+  /* Sombras */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+
+  /* Transiciones */
+  --transition-fast: 0.15s ease;
+  --transition-base: 0.3s ease;
+  --transition-slow: 0.5s ease;
+}

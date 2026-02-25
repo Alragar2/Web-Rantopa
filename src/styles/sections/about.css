@@ -1,0 +1,17 @@
+/* About Section */
+.about-section {
+  background: white;
+}
+
+.about-section h2 {
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.about-section p {
+  max-width: 800px;
+  margin: 0 auto var(--spacing-md);
+  text-align: center;
+  font-size: var(--font-size-lg);
+  line-height: 1.8;
+}

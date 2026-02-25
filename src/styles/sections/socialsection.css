@@ -1,0 +1,55 @@
+.social-section {
+  padding: 40px 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.social-links a {
+  display: flex;
+  flex-direction: column; /* Icono arriba, texto abajo */
+  align-items: center;
+  text-decoration: none;
+  color: #555;
+  transition: all 0.3s ease;
+}
+
+/* Estilo del icono */
+.social-links svg {
+  font-size: 2.5rem; /* Tamaño del icono */
+  margin-bottom: 8px;
+}
+
+/* Colores de marca al pasar el mouse (Hover) */
+.social-links a:hover {
+  transform: translateY(-5px);
+}
+
+.social-links a:hover svg {
+  /* Instagram Gradient (opcional) o color sólido */
+  color: #E1306C; 
+}
+
+/* Si quieres colores específicos por red: */
+.social-links a[aria-label="Twitter"]:hover svg { color: #1DA1F2; }
+.social-links a[aria-label="Facebook"]:hover svg { color: #4267B2; }
+
+/* Ocultar el texto en móviles si prefieres solo iconos */
+@media (max-width: 480px) {
+  .social-links span {
+    display: none;
+  }
+}

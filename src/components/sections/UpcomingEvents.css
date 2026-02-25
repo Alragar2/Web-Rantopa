@@ -1,0 +1,17 @@
+.upcoming-events {
+    padding: var(--spacing-2xl) 0;
+}
+
+.upcoming-events h2 {
+    text-align: center;
+    margin-bottom: var(--spacing-lg);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: var(--primary-color);
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--primary-color);
+}

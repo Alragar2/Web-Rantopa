@@ -1,0 +1,59 @@
+/* Footer Styles */
+.footer {
+  background: var(--background-dark);
+  color: var(--text-light);
+  padding: var(--spacing-2xl) 0;
+  border-top: 1px solid var(--background-light);
+}
+
+.footer .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--spacing-lg);
+    text-align: left;
+}
+
+.footer-brand h2 {
+    font-family: var(--font-family-headings);
+    font-size: var(--font-size-3xl);
+    color: var(--text-white);
+    margin-bottom: var(--spacing-sm);
+}
+
+.footer h4 {
+    font-family: var(--font-family-headings);
+    font-size: var(--font-size-lg);
+    color: var(--text-white);
+    margin-bottom: var(--spacing-md);
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: var(--spacing-sm);
+}
+
+.footer a {
+    color: var(--text-light);
+    transition: color var(--transition-base);
+}
+
+.footer a:hover {
+    color: var(--primary-color);
+}
+
+.footer-copyright {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-top: var(--spacing-lg);
+    padding-top: var(--spacing-lg);
+    border-top: 1px solid var(--background-light);
+}
+
+.footer-copyright p {
+    color: var(--text-light);
+    font-size: var(--font-size-sm);
+}
